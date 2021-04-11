@@ -33,6 +33,11 @@ header .logo{
     font-size: 40px;
 }
 
+header .logo-podcast{
+    height: 30px;
+    width: 30px;
+}
+
 header nav a{
     text-decoration: none;
     color: #aaa;
@@ -48,35 +53,40 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/liga-capa2.jpg');
-    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('');
+    height: 300px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+   
+    
 }
 
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
 }
 
 .botao{
     background-color: rgba(0,0,0,.50);
-    border: none;
+    border: 2px;
+    border-color: white;
     color: white;
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    margin-left: 30px;
 
 }
 .botao:hover{
@@ -86,4 +96,42 @@ header nav a:hover{
 
 .botao i{
     margin-right:  8px;
+}
+
+.box-filme{
+    height: 60%;
+    width: 60%;
+    display: block;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+}
+
+.carrossel-cultura{
+    margin-top: 30px;
+}
+
+.carrossel-comedia{
+    margin-top: 30px;
+}
+
+.titulo-itens{
+    margin: 20px 20px 20px 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.paragrafo-link{
+    text-decoration:none; 
+    color:#000; 
+	background:#ff0
 }
